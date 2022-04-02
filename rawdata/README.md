@@ -5,6 +5,9 @@
 
 ## ICT-keywords-20141203.xlsx
 
+Terms collected from keywords or degree projects at KTH and from from Course material of G. Q. Maguire Jr.
+The columns in the spreadsheet are "English - Word or Words", "Swedish", "URL to definition or usage". A notation for words is to use a vertical bar to handle single  and plural forms, for example: "acceleration|s", "acceleration|er".
+
 
 ## gf-termsEngSwe.tsv
 
