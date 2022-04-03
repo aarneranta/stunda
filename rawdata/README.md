@@ -22,6 +22,11 @@ A "/" indicates either alternatives (in an expression such as "and/or") or alter
 Terms collected by a bachelor project group at Chalmers in 2020.
 Original source: https://github.com/translator-for-cs/translator-for-cs
 
+The group work was superficially inspected and corrected in connection
+to addition in this repository.
+The file `suspect-gf-terms.txt` lists terms whose Swedish translation,
+morphology, or grammatical category need more attention.
+
 Columns in the tsv file:
 ```
 abstract syntax tree | English word forms | Swedish word forms
@@ -34,10 +39,11 @@ The abstract syntax tree indicates a classification by parts of speech:
 - V: verb
 - Adv: adverbial
 
-The data was dumped from the files grammars/Yerms*.gf with GF commands,
+The data was dumped from the files `grammars/Terms*.gf` with GF commands,
 ```
 > i TermsSwe.gf TermsEng.gf
-> gt -cat=NCSE | l -tabtreebank -list | wf -file="gf-termsEngSwe.tsv"
+> gt -cat=CNCSE -depth=0 | l -tabtreebank -list | wf -file="gf-termsEngSwe.tsv"
+> gt -cat=NCSE | l -tabtreebank -list | wf -file="gf-termsEngSwe.tsv" -append
 ```
 and so on for the other four categories.
 
