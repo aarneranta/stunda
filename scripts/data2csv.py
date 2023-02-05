@@ -7,7 +7,7 @@ rawdata_path = '../rawdata/'
 data_files = [
     {'name': 'ACM-klassificering-1998-en-sv.xls', 'cols': [3, 4], 'format': 'excel'},
     {'name': 'ICT-keywords-20141203.xlsx', 'cols': [0, 1],  'format': 'excel'},
-    {'name': 'gf-termsEngSwe.tsv', 'cols': [1, 2],  'format': 'tsv'},
+    {'name': 'shorter-gf-termsEngSwe.tsv', 'cols': [0, 1],  'format': 'tsv'},
     ]
 
 def data2csv(filedata):
