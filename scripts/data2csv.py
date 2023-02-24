@@ -5,9 +5,9 @@ delimiter = '\t'  # generate tsv
 rawdata_path = '../rawdata/'
 
 data_files = [
-    {'name': 'ACM-klassificering-1998-en-sv.xls', 'cols': [3, 4], 'format': 'excel'},
-    {'name': 'ICT-keywords-20141203.xlsx', 'cols': [0, 1],  'format': 'excel'},
-    {'name': 'shorter-gf-termsEngSwe.tsv', 'cols': [0, 1],  'format': 'tsv'},
+    {'name': 'ACM-klassificering-1998-en-sv.xls', 'cols': [3, 4], 'add': [('N?', 2)], 'format': 'excel'},
+    {'name': 'ICT-keywords-20141203.xlsx', 'cols': [0, 1],  'add': [('N?', 2)], 'format': 'excel'},
+    {'name': 'shorter-gf-termsEngSwe.tsv', 'cols': [0, 1, 2], 'add': [], 'format': 'tsv'},
     ]
 
 def data2csv(filedata):
@@ -26,8 +26,11 @@ def convert_all():
                 fields.append(file['name'])
                 fields.append(fields[0])
                 fields = fields[1:]
+                for field, pos in file['add']:
+                    fields.insert(pos, field)
                 lines.append('\t'.join(fields))
     lines.sort(key = lambda line: line.lower())
+    print('\t'.join(['English', 'Swedish', 'POS', 'source', 'row']))
     for line in lines:
         print(line)
 
