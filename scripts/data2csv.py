@@ -1,4 +1,5 @@
 import pandas
+import json
 
 delimiter = '\t'  # generate tsv
 
@@ -34,8 +35,28 @@ def convert_all():
     for line in lines:
         print(line)
 
+TSV_INPUT_FILE = '../all-terms.tsv'
+JSON_OUTPUT_FILE = '../stunda-terms.tsv'
 
+def to_json():
+    with open(TSV_INPUT_FILE, 'r') as infile:
+        with open(JSON_OUTPUT_FILE, 'w') as outfile:
+            for line in infile:
+                fields = line.split('\t')
+                if len(fields) > 4:
+                    dict = {
+                        'eng': fields[0].split(', '),
+                        'swe': fields[1].split(', '),
+                        'pos': fields[2],
+                        'src': fields[3],
+                        'row': fields[4].strip(),
+                        'status': [0],                      # 0 = dumped, 1=manually added, 3=edited, 4=checked 
+                        'comment': 'dumped from raw data'
+                        }
+                    json.dump(dict, outfile, indent=2, ensure_ascii=False)
+        
 if __name__ == '__main__':
-    convert_all()
+#    convert_all() initial conversion from data: save in TSV_INPUT_FILE, which is easier to edit
+    to_json()
 
 
