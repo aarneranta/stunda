@@ -19,11 +19,22 @@ def data2csv(filedata):
     return pandas.DataFrame.to_csv(pds, sep=delimiter).split('\n')
 
 
+def uncap(s):
+    s = s.strip()
+    if s and not s.isupper():
+        return s[0].lower() + s[1:]
+    else:
+        return s
+    
+
 def convert_all():
     lines = []
     for file in data_files:
             for line in data2csv(file):
                 fields = line.split('\t')
+                if fields[1:]:
+                    fields[0] = uncap(fields[0]) 
+                    fields[1] = uncap(fields[1]) 
                 fields.append(file['name'])
                 fields.append(fields[0])
                 fields = fields[1:]
@@ -56,7 +67,7 @@ def to_json():
                     json.dump(dict, outfile, indent=2, ensure_ascii=False)
         
 if __name__ == '__main__':
-#    convert_all() initial conversion from data: save in TSV_INPUT_FILE, which is easier to edit
-    to_json()
+    convert_all()  # initial conversion from data: save in TSV_INPUT_FILE, which is easier to edit
+#    to_json()
 
 
