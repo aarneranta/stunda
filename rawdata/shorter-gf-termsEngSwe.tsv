@@ -3,7 +3,7 @@ LED, LEDs	lysdiod, lysdioden, lysdioder	N
 LED display, LED displays	lysdiodskärm, lysdiodskärmen, lysdiodskärmar	N
 Wi-Fi, Wi-Fis	Wi-Fi, Wi-Fiet, Wi-Fi	N
 XHTML, XHTMLs	XHTML, XHTMLet, XHTML	N
-abstract	abstrakt, abstraktt	A
+abstract	abstrakt, abstrakt	A
 abstract, abstracts	utdrag, utdraget, utdrag	N
 abstract data type, abstract data types	abstrakt datatyp, abstrakta datatypen, abstrakta datatyper	N
 abstract method, abstract methods	abstrakt metod, abstrakta metoden, abstrakta metodar	N
@@ -42,7 +42,6 @@ address, addressed, addressed	 adressera, adresserade, adresserat	V
 address space, address spaces	adressrymd, adressrymden, adressrymder	N
 administrative	administrativ, administrativt	A
 admission requirement, admission requirements	tillträdeskrav, tillträdeskravet, tillträdeskrav	N
-adobe, adobes	adobe, adobeet, adobe	N
 advance, advances	framsteg, framsteget, framsteg	N
 advance, advanced, advanced	 avancera, avancerade, avancerat	V
 affect, affected, affected	 påverka, påverkade, påverkat	V
@@ -52,7 +51,6 @@ aggregation, aggregations	aggregation, aggregationen, aggregationer	N
 agile	agil, agilt	A
 agile software development, agile software developments	agil mjukvaruutveckling, agila mjukvaruutvecklingen, agila mjukvaruutvecklingar	N
 agreement, agreements	avtal, avtalet, avtal	N
-ai, ais	AI, AIn, AIer	N
 aid, aided, aided	 hjälpa, hjälpte, hjälpt	V
 aim, aims	syfte, syftet, syften	N
 aim, aimed, aimed	 syfta, syftade, syftat	V
@@ -69,22 +67,15 @@ allocation, allocations	fördelning, fördelningen, fördelningar	N
 allow, allowed, allowed	 låta, lät, låtit	V
 alpha, alphas	alfa, alfat, alfan	N
 alternate, alternated, alternated	 växla, växlade, växlat	V
-amoled, amoleds	amoled, amoledet, amoled	N
 amplitude, amplitudes	amplitud, amplituden, amplituder	N
-analog, analogs	analog, analoget, analog	N
 analyse, analysed, analysed	 analysera, analyserade, analyserat	V
 analysis, analysises	analys, analysen, analyser	N
 analytical	analytisk, analytiskt	A
-android, androids	android, androiden, androider	N
 anisotropic	anisotrop, anisotropt	A
 answer, answers	svar, svaret, svar	N
-ant, ants	myra, myran, myror	N
-antecedent	tidigare, tidigare	A
 antenna, antennas	antenn, antennen, antenner	N
 antibiotic, antibiotics	antibiotikum, antibiotikumet, antibiotika	N
 antivirus, antiviruses	antivirus, antiviruset, antivirus	N
-apache, apaches	apache, apacheet, apache	N
-apple, apples	äpple, äpplet, äpplen	N
 appliance, appliances	tillämpning, tillämpningen, tillämpningar	N
 application, applications	applikation, applikationen, applikationer	N
 application software, application softwares	tillämpningsprogram, tillämpningsprogramet, tillämpningsprogram	N
@@ -105,7 +96,6 @@ article, articles	artikel, artikeln, artiklar	N
 articulate, articulated, articulated	 artikulera, artikulerade, artikulerat	V
 artificial	artificiell, artificiellt	A
 artificial intelligence, artificial intelligences	artificiell intelligens, artificiella intelligensen, artificiella intelligenser	N
-ascii, asciis	ascii, asciiet, ascii	N
 aspect, aspects	aspekt, aspekten, aspekter	N
 assembly, assemblies	assembly, assemblyn, assemblys	N
 assembly code, assembly codes	assemblykod, assemblykoden, assemblykoder	N
@@ -120,7 +110,7 @@ associate, associated, associated	 associera, associerade, associerat	V
 association, associations	samband, sambandet, samband	N
 associative	associativ, associativt	A
 assume, assumed, assumed	 anta, antog, antagit	V
-asymmetric	assymetrisk, assymetriskt	A
+asymmetric	asymetrisk, asymetriskt	A
 asymptotic	asymptotisk, asymptotiskt	A
 asynchronous	asynkron, asynkront	A
 attachment, attachments	bilaga, bilagan, bilagor	N
@@ -132,12 +122,12 @@ attribute, attributes	attribut, attributet, attribut	N
 audio, audios	ljud, ljudet, ljud	N
 authentication, authentications	autentisering, autentiseringen, autentiseringar	N
 authore, authored, authored	 författa, författade, författat	V
-authority, authoritys	myndighet, myndigheten, myndigheter	N
+authority, authorities	myndighet, myndigheten, myndigheter	N
 automata theory, automata theories	automatteori, automatteorien, automatteoriar	N
 automate, automated, automated	 automatisera, automatiserade, automatiserat	V
 automated	automatiserad, automatiserat	A
 automation, automations	automatisering, automatiseringen, automatiseringar	N
-automaton, automatons	automatisering, automatiseringen, automatiseringar	N
+automaton, automata	automat, automaten, automater	N
 autonomous	självstyrande, självstyrande	A
 availability, availabilities	tillgång, tillgången, tillgångar	N
 available	tillgänglig, tillgängligt	A
@@ -145,22 +135,19 @@ average	genomsnittlig, genomsnittligt	A
 average, averages	genomsnitt, genomsnittet, genomsnitt	N
 axial	axial, axialt	A
 bachelor, bachelors	kandidat, kandidaten, kandidater	N
-back, backs	bak, baken, bakar	N
 background, backgrounds	bakgrund, bakgrunden, bakgrunder	N
 balance, balanced, balanced	 balansera, balanserade, balanserat	V
 bandwidth, bandwidths	bandbredd, bandbredden, bandbredder	N
-bar, bars	fält, fältet, fält	N
 base, based, based	 basera, baserade, baserat	V
 basic	grundläggande, grundläggande	A
-basic, basics	element, elementet, element	N
+basic, basics	grund, grunden, grunder	N
 basic principle, basic principles	grundprincip, grundprincipen, grundprinciper	N
 batch, batches	batch, batchen, batcher	N
 baud, bauds	baud, baudet, baud	N
-begin, beginned, beginned	 börja, började, börjat	V
+begin, began, begun	 börja, började, börjat	V
 behavior, behaviors	beteende, beteendet, beteenden	N
 behaviour, behaviours	beteende, beteendet, beteenden	N
 benchmark, benchmarks	riktvärde, riktvärdet, riktvärden	N
-better, bettered, bettered	 förbättra, förbättrade, förbättrat	V
 bidirectional	dubbelriktad, dubbelriktat	A
 big data, big data	stor data, stora datan, stora data	N
 binary	binär, binärt	A
@@ -168,8 +155,8 @@ binary number, binary numbers	binärt tal, binära talet, binära tal	N
 binary search algorithm, binary search algorithms	binärsökning, binärsökningen, binärsökningar	N
 binary search tree, binary search trees	binärt sökträd, binära sökträdet, binära sökträd	N
 binary tree, binary trees	binärträd, binärträdet, binärträd	N
-bind, binded, binded	 binda, band, bundit	V
-bioinformatics, bioinformaticses	bioinformatik, bioinformatiken, bioinformatiker	N
+bind, bound, bound	 binda, band, bundit	V
+bioinformatics, bioinformatics	bioinformatik, bioinformatiken, bioinformatiker	N
 biology, biologies	biologi, biologin, biologier	N
 bios, bioses	bios, bioset, bios	N
 bipolar	bipolär, bipolärt	A
@@ -197,10 +184,9 @@ breadth, breadths	bredd, bredden, bredder	N
 bridge, bridges	brygga, bryggan, bryggor	N
 broker, brokers	agent, agenten, agenter	N
 bug, bugs	bugg, buggen, buggar	N
-build, builded, builded	 bygga, byggde, byggt	V
+build, built, built	 bygga, byggde, byggt	V
 bulletin, bulletins	rapport, rapporten, rapporter	N
 bus, buses	buss, bussen, bussar	N
-bus, bused, bused	 bussa, bussade, bussat	V
 business, businesses	företag, företaget, företag	N
 business information system, business information systems	affärsinformationssystem, affärsinformationssystemet, affärsinformationssystem	N
 byte, bytes	byte, byten, bytes	N
@@ -228,7 +214,6 @@ cassette, cassettes	kassett, kassetten, kassetter	N
 categorical	kategorisk, kategoriskt	A
 category, categorys	kategori, kategorin, kategorier	N
 cathode, cathodes	katod, katoden, katoder	N
-cd, cds	cd, cdn, cds	N
 cell, cells	cell, cellen, celler	N
 central, centrals	central, centralen, centraler	N
 challenge, challenges	utmaning, utmaningen, utmaningar	N
@@ -241,15 +226,10 @@ chat, chats	prat, pratet, prat	N
 chat, chatted, chatted	 chatta, chattade, chattat	V
 check, checks	test, testen, tester	N
 check, checked, checked	 kontrollera, kontrollerade, kontrollerat	V
-chief	högsta, högsta	A
-chief, chiefs	ledare, ledaren, ledare	N
-child, children	barn, barnet, barn	N
 chip, chips	chip, chipet, chips	N
-chrome, chromes	chrome, chromeet, chrome	N
-cipher, ciphers	skiffer, skiffret, skiffer	N
+cipher, ciphers	chiffer, chiffret, chiffer	N
 circuit, circuits	krets, kretsen, kretsar	N
 circuit structure, circuit structures	kretsstruktur, kretsstrukturen, kretsstrukturer	N
-cisco, ciscoes	cisco, ciscoet, cisco	N
 class, classs	klass, klassen, klasser	N
 class diagram, class diagrams	klassmodell, klassmodellen, klassmodeller	N
 classification, classifications	klassificering, klassificeringen, klassificeringar	N
@@ -261,7 +241,7 @@ client, clients	klient, klienten, klienter	N
 clock, clocks	klocka, klockan, klockor	N
 clock, clocked, clocked	 klocka, klockade, klockat	V
 close, closed, closed	 stänga, stängde, stängt	V
-closure, closures	stängning, stängningen, stängningar	N
+closure, closures	hölje, höljet, höljen	N
 cloud, clouds	moln, molnet, moln	N
 cloud computing, cloud computings	datormoln, datormolnen, datormolnar	N
 cluster, clusters	kluster, klustret, kluster	N
@@ -333,7 +313,7 @@ computer mouse, computer mice	datormus, datormuset, datormöss	N
 computer network, computer networks	datornätverk, datornätverket, datornätverk	N
 computer program, computer programs	datorprogram, datorprogrammet, datorprogram	N
 computer science, computer sciences	datavetenskap, datavetenskapen, datavetenskaper	N
-computer scientist, computer scientists	datorforskare, datorforskaren, datorforskare	N
+computer scientist, computer scientists	datalog, datalogen, dataloger	N
 computer security, computer securities	datasäkerhet, datasäkerhetet, datasäkerhet	N
 computer security model, computer security models	datasäkerhetsmodell, datasäkerhetsmodellen, datasäkerhetsmodeller	N
 computer system, computer systems	datorsystem, datorsystemet, datorsystem	N
@@ -375,20 +355,19 @@ consumer, consumers	konsument, konsumenten, konsumenter	N
 consumption, consumptions	konsumption, konsumptionen, konsumptioner	N
 container, containers	behållare, behållaren, behållare	N
 content, contents	innehåll, innehållet, innehåll	N
-contents, contentss	innehåll, innehållet, innehåll	N
 context, contexts	kontext, kontexten, kontexter	N
-context free, context frees	kontextfrihet, kontextfriheten, kontextfriheter	N
+context-free	kontextfri, kontextfritt	A
 continual	ständig, ständigt	A
 continuation, continuations	fortsättning, fortsättningen, fortsättningar	N
 continuity, continuities	kontinuitet, kontinuiteten, kontinuiteter	N
 continuous	kontinuerlig, kontinuerligt	A
 contravariance, contravariances	kontravarians, kontravariansen, kontravarianser	N
 control, controls	kontroll, kontrollen, kontroller	N
-control, controled, controled	 kontrollera, kontrollerade, kontrollerat	V
+control, controlled, controlled	 kontrollera, kontrollerade, kontrollerat	V
 control flow, control flows	programflöde, programflödet, programflöden	N
 control system, control systems	styrsystem, styrsystemet, styrsystem	N
 control unit, control units	styrenhet, styrenheten, styrenheter	N
-controller, controllers	kontroll, kontrollen, kontroller	N
+controller, controllers	kontrollant, kontrollanten, kontrollanter	N
 convention, conventions	konvention, konventionen, konventioner	N
 convergence, convergences	konvergens, konvergensen, konvergenser	N
 convert, converted, converted	 omvandla, omvandlade, omvandlat	V
@@ -407,14 +386,13 @@ cost, costs	kostnad, kostnaden, kostnader	N
 countermeasure, countermeasures	motåtgärd, motåtgärden, motårgärder	N
 coupler, couplers	koppling, kopplingen, kopplingar	N
 course, courses	kurs, kursen, kurser	N
-course plan, course plans	programplan, programplanen, programplaner	N
+course plan, course plans	kursplan, kursplanen, kursplaner	N
 covariance, covariances	kovarians, kovariansen, kovarianser	N
 create, created, created	 skapa, skapade, skapat	V
 creativity, creativities	kreativitet, kreativiteten, kreativiteter	N
 cross, crosses	kors, korset, kors	N
 crosstalk, crosstalks	överhörning, överhörningen, överhörningar	N
 cryptanalysis, cryptanalysises	kryptanalys, kryptanalysen, kryptanalyser	N
-crypto, cryptoes	krypto, kryptot, krypton	N
 cryptography, cryptographies	kryptografi, kryptografin, kryptografier	N
 cryptology, cryptologys	kryptologi, kryptologin, kryptologier	N
 crystal, crystals	kristall, kristallen, kristaller	N
@@ -427,7 +405,7 @@ cyber security, cyber securities	cybersäkerhet, cybersäkerheten, cybersäkerhe
 cyberbullying, cyberbullyings	nätmobbning, nätmobbningen, nätmobbningar	N
 cybernetics, cyberneticses	cybernetik, cybernetiken, cybernetiker	N
 cyberspace, cyberspaces	cyberrymd, cyberrymden, cyberrymder	N
-cycle, cycles	cykel, cykeln, cyklar	N
+cycle, cycles	cykel, cykeln, cykler	N
 cyclic	cyklisk, cykliskt	A
 cylinder, cylinders	cylinder, cylindern, cylindrar	N
 daemon, daemons	daemon, daemonet, daemons	N
@@ -436,7 +414,7 @@ data abstraction, data abstractions	dataabstraktion, dataabstraktionen, dataabst
 data center, data centers	datorhall, datorhallen, datorhallar	N
 data collection, data collections	datasamling, datasamlingen, datasamlingar	N
 data communication, data communications	datakommunikation, datakommunikationen, datakommunikationer	N
-data dependencies, data dependencieses	databeroende, databeroendet, databeroenden	N
+data dependency, data dependencies	databeroende, databeroendet, databeroenden	N
 data management, data managements	datahantering, datahanteringen, datahanteringar	N
 data mining, data minings	datautvinning, datautvinningen, datautvinningar	N
 data processing, data processings	databehandling, databehandlingen, databehandlingar	N
@@ -480,7 +458,7 @@ detect, detected, detected	 upptäcka, upptäckte, upptäckt	V
 detection, detections	upptäckt, upptäckten, upptäckter	N
 determine, determined, determined	 fastställa, fastställde, fastställt	V
 deterministic	deterministisk, deterministiskt	A
-develop, developped, developped	 utveckla, utvecklade, utvecklat	V
+develop, developed, developed	 utveckla, utvecklade, utvecklat	V
 developer, developers	utvecklare, utvecklaren, utvecklare	N
 development, developments	utveckling, utvecklingen, utvecklingar	N
 development environment, development environments	utvecklingsmiljö, utvecklingsmiljöen, utvecklingsmiljöer	N
@@ -525,19 +503,14 @@ domain name, domain names	domännamn, domännamnet, domännamn	N
 domain name system, domain name systems	domännamnssystem, domännamnssystemet, domännamnssystem	N
 domain-specific language, domain-specific languages	domänspecifikt språk, domänspecifika språket, domänspecifika språk	N
 dot, dots	punkt, punkten, punkter	N
-dot, dots	punkt, punkten, punkter	N
 double, doubles	dubbel, dubblet, dubbel	N
 double, doubled, doubled	 dubbla, dubblade, dubblat	V
-doubt, doubts	tvivel, tvivlet, tvivel	N
-doubt, doubted, doubted	 tvivla, tvivlade, tvivlat	V
 download, downloads	nedladdning, nedladdningen, nedladdningar	N
 download, downloaded, downloaded	 hämta, hämtade, hämtat	V
 drag, dragged, dragged	 dra, drade, drat	V
 drive, drives	disk, disken, diskar	N
-driver, drivers	driver, driveret, drivers	N
 drop, drops	fall, fallet, fall	N
 drop, dropped, dropped	 släppa, släppte, släppt	V
-dual	dubbel, dubbelt	A
 dynamic	dynamisk, dynamiskt	A
 dynamic, dynamics	dynamik, dynamiken, dynamiker	N
 dynamic programming, dynamic programmings	dynamisk programmering, dynamiska programmeringen, dynamiska programmeringar	N
@@ -556,16 +529,14 @@ electricity, electricitys	elektricitet, elektriciteten, elektriciteter	N
 electromagnetic	elektromagnetisk, elektromagnetiskt	A
 electromagnetic wave, electromagnetic waves	elektromagnetisk strålning, elektromagnetiska strålningen, elektromagnetiska strålningar	N
 electronic	elektronisk, elektroniskt	A
-electronic	elektronisk, elektroniskt	A
 electronics, electronics	elektronik, elektroniken, elektroniker	N
 element, elements	element, elementet, element	N
 elliptic	elliptisk, elliptiskt	A
-elm, elms	alm, almen, almar	N
 embed, embedded, embedded	 inbädda, inbäddade, inbäddat	V
 emergency, emergencys	kris, krisen, kriser	N
 empirical	empirisk, empiriskt	A
 employee, employees	anställd, anställda, anställda	N
-empty set, empty sets	tom mängd, toma mängden, toma mängdar	N
+empty set, empty sets	tom mängd, tomma mängden, tomma mängder	N
 enable, enabled, enabled	 möjliggöra, möjliggjorde, möjliggjort	V
 encapsulation, encapsulations	inkapsling, inkapslingen, inkapslingar	N
 encode, encoded, encoded	 koda, kodade, kodat	V
@@ -581,7 +552,7 @@ enhance, enhanced, enhanced	 höja, höjde, höjt	V
 enhancement, enhancements	förbättring, förbättringen, förbättringar	N
 entity, entities	entitet, entiteten, entiteter	N
 entry, entries	inträde, inträdet, inträden	N
-entry requirements, entry requirementses	behörighet, behörigheten, behörigheter	N
+entry requirement, entry requirements	behörighet, behörigheten, behörigheter	N
 environment, environments	miljö, miljön, miljöer	N
 equalizer, equalizers	utjämnare, utjämnaren, utjämnare	N
 equation, equations	ekvation, ekvationen, ekvationer	N
@@ -595,13 +566,13 @@ establish, established, established	 etablera, etablerade, etablerat	V
 estimate, estimated, estimated	 estimera, estimerade, estimerat	V
 ethernet, ethernets	ethernet, ethernetet, ethernet	N
 ethical aspect, ethical aspects	etisk aspekt, etiska aspekten, etiska aspekter	N
-ethics, ethicses	etik, etiken, etiker	N
+ethics, ethics	etik, etiken, etiker	N
 evaluate, evaluated, evaluated	 evaluera, evaluerade, evaluerat	V
 evaluation, evaluations	evaluering, evalueringen, evalueringar	N
 event, events	händelse, händelsen, händelser	N
 evolution, evolutions	evolution, evolutionen, evolutioner	N
 examination, examinations	examination, examinationen, examinationer	N
-examination hall exam, examination hall exams	salstentamen, salstentamenet, salstentamina	N
+examination hall exam, examination hall exams	salstentamen, salstentamen, salstentamina	N
 example, examples	exempel, exemplet, exempel	N
 exception, exceptions	undantag, undantaget, undantag	N
 exception handling, exception handlings	undantagshantering, undantagshanteringen, undantagshanteringar	N
@@ -621,8 +592,6 @@ experiment, experimented, experimented	 experimentera, experimenterade, experime
 expert, experts	expert, experten, experter	N
 explicit	tydlig, tydligt	A
 explore, explored, explored	 utforska, utforskade, utforskat	V
-explore, explored, explored	 utforska, utforskade, utforskat	V
-express, expressions	express, expresset, express	N
 express, expressed, expressed	 uttrycka, uttryckte, uttryckt	V
 expression, expressions	uttryck, uttrycket, uttryck	N
 extend, extended, extended	 utöka, utökade, utökat	V
@@ -630,7 +599,6 @@ extension, extensions	förlängning, förlängningen, förlängningar	N
 exterior	yttre, yttre	A
 exterior, exteriors	yttre, yttret, yttren	N
 external	yttre, yttre	A
-external, externals	extern, externet, externa	N
 extract, extracts	utdrag, utdraget, utdrag	N
 extract, extracted, extracted	 extrahera, extraherade, extraherat	V
 extraction, extractions	extraktion, extraktionen, extraktioner	N
@@ -642,13 +610,9 @@ false	falsk, falskt	A
 fan, fans	fläkt, fläkten, fläktar	N
 fan, fanned, fanned	 fläkta, fläktade, fläktat	V
 fast	snabb, snabbt	A
-fast	snabb, snabbt	A
 fault, faults	fel, felet, fel	N
-fault, faulted, faulted	 kritisera, kritiserade, kritiserat	V
-fear, fears	rädsla, rädslan, rädslor	N
 feasibility study, feasibility studies	förstudie, förstudien, förstudier	N
 feature, features	funktion, funktionen, funktioner	N
-fedora, fedoras	fedora, fedoraet, fedora	N
 feed, feeds	flöde, flödet, flöden	N
 field, fields	fält, fältet, fält	N
 file, files	fil, filen, filer	N

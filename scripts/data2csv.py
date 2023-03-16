@@ -46,8 +46,16 @@ def convert_all():
     for line in lines:
         print(line)
 
+
+def get_forms(xs):
+    if xs:
+        return {'lemma': xs[0], 'inflection': xs[1:]}
+    else:
+        return None
+    
+
 TSV_INPUT_FILE = '../all-terms.tsv'
-JSON_OUTPUT_FILE = '../stunda-terms.tsv'
+JSON_OUTPUT_FILE = '../stunda-terms.json'
 
 def to_json():
     with open(TSV_INPUT_FILE, 'r') as infile:
@@ -56,18 +64,18 @@ def to_json():
                 fields = line.split('\t')
                 if len(fields) > 4:
                     dict = {
-                        'eng': fields[0].split(', '),
-                        'swe': fields[1].split(', '),
+                        'eng': get_forms(fields[0].split(', ')),
+                        'swe': get_forms(fields[1].split(', ')),
                         'pos': fields[2],
                         'src': fields[3],
                         'row': fields[4].strip(),
                         'status': [0],                      # 0 = dumped, 1=manually added, 3=edited, 4=checked 
                         'comment': 'dumped from raw data'
                         }
-                    json.dump(dict, outfile, indent=2, ensure_ascii=False)
+                    outfile.write(json.dumps(dict, ensure_ascii=False)+'\n')
         
 if __name__ == '__main__':
-    convert_all()  # initial conversion from data: save in TSV_INPUT_FILE, which is easier to edit
-#    to_json()
+#    convert_all()  # initial conversion from data: save in TSV_INPUT_FILE, which is easier to edit
+    to_json()
 
 
