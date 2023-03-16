@@ -1,14 +1,20 @@
 import pandas
 import json
+import sys
+
+MODE = 'TSV'
+if sys.argv[1:]:
+    MODE = sys.argv[1]
+
 
 delimiter = '\t'  # generate tsv
 
 rawdata_path = '../rawdata/'
 
 data_files = [
-    {'name': 'ACM-klassificering-1998-en-sv.xls', 'cols': [3, 4], 'add': [('N?', 2)], 'format': 'excel', 'abbr': 'ACM'},
-    {'name': 'ICT-keywords-20141203.xlsx', 'cols': [0, 1],  'add': [('N?', 2)], 'format': 'excel', 'abbr': 'ICT'},
-    {'name': 'shorter-gf-termsEngSwe.tsv', 'cols': [0, 1, 2], 'add': [], 'format': 'tsv', 'abbr': 'GF'},
+    {'name': 'ACM-klassificering-1998-en-sv.xls', 'cols': [3, 4], 'add': [('N?', 2), ('0', 3)], 'format': 'excel', 'abbr': 'ACM'},
+    {'name': 'ICT-keywords-20141203.xlsx', 'cols': [0, 1],  'add': [('N?', 2), ('0', 3)], 'format': 'excel', 'abbr': 'ICT'},
+    {'name': 'shorter-gf-termsEngSwe.tsv', 'cols': [0, 1, 2], 'add': [('1', 3)], 'format': 'tsv', 'abbr': 'GF'},
     ]
 
 def data2csv(filedata):
@@ -59,23 +65,31 @@ JSON_OUTPUT_FILE = '../stunda-terms.json'
 
 def to_json():
     with open(TSV_INPUT_FILE, 'r') as infile:
+        terms = []
         with open(JSON_OUTPUT_FILE, 'w') as outfile:
             for line in infile:
                 fields = line.split('\t')
-                if len(fields) > 4:
+                if len(fields) > 5:
                     dict = {
                         'eng': get_forms(fields[0].split(', ')),
                         'swe': get_forms(fields[1].split(', ')),
                         'pos': fields[2],
-                        'src': fields[3],
-                        'row': fields[4].strip(),
-                        'status': [0],                      # 0 = dumped, 1=manually added, 3=edited, 4=checked 
-                        'comment': 'dumped from raw data'
+                        'status': fields[3],                      # 0 = unchecked, 1 = checked
+                        'src': fields[4],
+                        'row': fields[5].strip(),
+                        'comment': 'from data'
                         }
-                    outfile.write(json.dumps(dict, ensure_ascii=False)+'\n')
+                    if MODE == 'DICTS':
+                        outfile.write(json.dumps(dict, ensure_ascii=False)+'\n')
+                    else:
+                        terms.append(dict)
+            if MODE == 'JSON':
+                json.dump(outfile, dict, ensure_ascii=False, indent=2)
         
 if __name__ == '__main__':
-    convert_all()  # initial conversion from data: save in TSV_INPUT_FILE, which is easier to edit
-#    to_json()
+    if MODE == 'TSV':
+        convert_all()  # initial conversion from data: save in TSV_INPUT_FILE, which is easier to edit
+    else:
+        to_json()
 
 
