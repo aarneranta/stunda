@@ -6,9 +6,9 @@ delimiter = '\t'  # generate tsv
 rawdata_path = '../rawdata/'
 
 data_files = [
-    {'name': 'ACM-klassificering-1998-en-sv.xls', 'cols': [3, 4], 'add': [('N?', 2)], 'format': 'excel'},
-    {'name': 'ICT-keywords-20141203.xlsx', 'cols': [0, 1],  'add': [('N?', 2)], 'format': 'excel'},
-    {'name': 'shorter-gf-termsEngSwe.tsv', 'cols': [0, 1, 2], 'add': [], 'format': 'tsv'},
+    {'name': 'ACM-klassificering-1998-en-sv.xls', 'cols': [3, 4], 'add': [('N?', 2)], 'format': 'excel', 'abbr': 'ACM'},
+    {'name': 'ICT-keywords-20141203.xlsx', 'cols': [0, 1],  'add': [('N?', 2)], 'format': 'excel', 'abbr': 'ICT'},
+    {'name': 'shorter-gf-termsEngSwe.tsv', 'cols': [0, 1, 2], 'add': [], 'format': 'tsv', 'abbr': 'GF'},
     ]
 
 def data2csv(filedata):
@@ -35,7 +35,7 @@ def convert_all():
                 if fields[1:]:
                     fields[0] = uncap(fields[0]) 
                     fields[1] = uncap(fields[1]) 
-                fields.append(file['name'])
+                fields.append(file['abbr'])
                 fields.append(fields[0])
                 fields = fields[1:]
                 for field, pos in file['add']:
@@ -75,7 +75,7 @@ def to_json():
                     outfile.write(json.dumps(dict, ensure_ascii=False)+'\n')
         
 if __name__ == '__main__':
-#    convert_all()  # initial conversion from data: save in TSV_INPUT_FILE, which is easier to edit
-    to_json()
+    convert_all()  # initial conversion from data: save in TSV_INPUT_FILE, which is easier to edit
+#    to_json()
 
 

@@ -1429,7 +1429,7 @@ telecommunications, telecommunicationses	telekommunikation, telekommunikationen,
 telephony, telephonies	telefoni, telefonin, telefonier	N
 template, templates	mall, mallen, mallar	N
 temporal	temporal, temporalt, temporala	A
-terabyte, terabytes	terabyte, terabyten, terabytes	N
+terabyte, terabytes	terabyte, terabyten, terabyte	N
 term, terms	term, termen, termer	N
 terminal	terminal, terminalt, terminala	A
 terminal, terminals	terminal, terminalen, terminaler	N
@@ -1523,6 +1523,7 @@ virtual private network, virtual private networks	virtuellt privat nätverk, vir
 virus, viruses	virus, viruset, virus	N
 visual	visuell, visuellt, visuella	A
 visualization, visualizations	visualisering, visualiseringen, visualiseringar	N
+voice, voices	ljud, ljudet, ljud	N
 voice, voices	röst, rösten, röster	N
 volatile	labil, labilt, labila	A
 voltage, voltages	spänning, spänningen, spänningar	N
@@ -1535,7 +1536,7 @@ web browser, web browsers	webbläsare, webbläsaren, webbläsare	N
 web page, web pages	webbsida, webbsidan, webbsidor	N
 web server, web servers	webbserver, webbservern, webbservrar	N
 webcam, webcams	webbkamera, webbkameran, webbkameror	N
-website, websites	hemsida, hemsidan, hemsidor	N
+website, websites	webbsida, webbsidan, webbsidor	N
 well-grounded	välgrundad, välgrundat, välgrundade	A
 while-loop, while-loops	while-loop, while-loopen, while-loopar	N
 while-statement, while-statements	while-sats, while-satsen, while-satser	N
