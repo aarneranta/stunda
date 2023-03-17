@@ -27,7 +27,7 @@ def data2csv(filedata):
 
 def uncap(s):
     s = s.strip()
-    if s and not s.isupper():
+    if False and s and not s.isupper():
         return s[0].lower() + s[1:]
     else:
         return s
@@ -77,14 +77,16 @@ def to_json():
                         'status': fields[3],                      # 0 = unchecked, 1 = checked
                         'src': fields[4],
                         'row': fields[5].strip(),
-                        'comment': 'from data'
+                        'comment': 'from data',
+                        'synonyms': [],
+                        'definition': None
                         }
                     if MODE == 'DICTS':
                         outfile.write(json.dumps(dict, ensure_ascii=False)+'\n')
                     else:
                         terms.append(dict)
             if MODE == 'JSON':
-                json.dump(outfile, dict, ensure_ascii=False, indent=2)
+                json.dump(terms, outfile, ensure_ascii=False, indent=2)
         
 if __name__ == '__main__':
     if MODE == 'TSV':
