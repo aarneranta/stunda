@@ -2,6 +2,31 @@ import pandas
 import json
 import sys
 
+"""
+Convert different data sources to a common TSV or JSON format.
+
+Usage:
+
+  python3 convert_data TSV
+
+reads the sources from ../rawdata and writes to stunda_terms.tsv
+
+  python3 convert_data JSON
+
+reads the generated TSV file and writes ../stunda-terms.json
+containing a JSON list of dictionaries, one per term
+
+  python3 convert_data JSONL
+
+reads the generated TSV file and writes ../stunda-terms.jsonl
+containing one dictionary per lien, for each term.
+"""
+
+TSV_INPUT_FILE = '../stunda-terms.tsv'
+JSON_OUTPUT_FILE = '../stunda-terms.json'
+JSONL_OUTPUT_FILE = '../stunda-terms.jsonl'
+
+
 MODE = 'TSV'
 if sys.argv[1:]:
     MODE = sys.argv[1]
@@ -48,9 +73,10 @@ def convert_all():
                     fields.insert(pos, field)
                 lines.append('\t'.join(fields))
     lines.sort(key = lambda line: line.lower())
-    print('\t'.join(['English', 'Swedish', 'POS', 'source', 'row']))
-    for line in lines:
-        print(line)
+    header = '\t'.join(['English', 'Swedish', 'POS', 'source', 'row'])
+    lines.insert(0, header)
+    with open(TSV_INPUT_FILE, 'w') as outfile:
+        outfile.write('\n'.join(lines))
 
 
 def get_forms(xs):
@@ -60,13 +86,14 @@ def get_forms(xs):
         return None
     
 
-TSV_INPUT_FILE = '../all-terms.tsv'
-JSON_OUTPUT_FILE = '../stunda-terms.json'
-
 def to_json():
     with open(TSV_INPUT_FILE, 'r') as infile:
         terms = []
-        with open(JSON_OUTPUT_FILE, 'w') as outfile:
+        if MODE == 'JSONL':
+            jsonfile = JSONL_OUTPUT_FILE
+        else:
+            jsonfile = JSON_OUTPUT_FILE
+        with open(jsonfile, 'w') as outfile:
             for line in infile:
                 fields = line.split('\t')
                 if len(fields) > 5:
@@ -81,7 +108,7 @@ def to_json():
                         'synonyms': [],
                         'definition': None
                         }
-                    if MODE == 'DICTS':
+                    if MODE == 'JSONL':
                         outfile.write(json.dumps(dict, ensure_ascii=False)+'\n')
                     else:
                         terms.append(dict)
